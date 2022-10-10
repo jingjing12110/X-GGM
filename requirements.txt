@@ -1,0 +1,16 @@
+torch==1.7.1
+boto3==1.16.47
+h5py==2.10.0
+transformers==4.2.0
+spacy==2.3.5
+botocore==1.19.47
+prefetch_generator==1.0.1
+seaborn==0.11.1
+matplotlib==3.3.2
+numpy==1.19.2
+requests==2.25.1
+pandas==1.2.0
+tqdm==4.55.0
+tensorboardX==2.2
+tensorflow==2.5.0
+torch_scatter==2.0.6
