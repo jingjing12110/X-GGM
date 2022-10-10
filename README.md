@@ -1,6 +1,6 @@
 # X-GGM 
 
-PyTorch code of our paper: [X-GGM: Graph Generative Modeling for Out-of-Distribution Generalization in Visual Question Answering](https://dl.acm.org/doi/abs/10.1145/3474085.3475350) (MM 2021),
+PyTorch code of our paper: [X-GGM: Graph Generative Modeling for Out-of-Distribution Generalization in Visual Question Answering](https://dl.acm.org/doi/abs/10.1145/3474085.3475350) (MM 2021).
 
 This implementation is based on [LXMERT](https://github.com/airsplay/lxmert). Thanks for their pioneering work.
 
