@@ -96,10 +96,10 @@ class VQA:
         # Load pre-trained weights
         if args.load_lxmert is not None:
             self.model.lxrt_encoder.load(args.load_lxmert)
-        # if args.load_lxmert_qa is not None:
-        #     # Loaded 2271 answers from LXRTQA pre-training and 3 not
-        #     load_lxmert_qa(args.load_lxmert_qa, self.model,
-        #                    label2ans=self.train_tuple.dataset.label2ans)
+        if args.load_lxmert_qa is not None:
+            # Loaded 2271 answers from LXRTQA pre-training and 3 not
+            load_lxmert_qa(args.load_lxmert_qa, self.model,
+                           label2ans=self.train_tuple.dataset.label2ans)
         
         # GPU options
         self.model = self.model.cuda()
